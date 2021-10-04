@@ -1,0 +1,171 @@
+:root {
+    --darkgray: rgb(61, 61, 61);
+    --white: white;
+    --blue: rgb(36, 112, 252);
+    --darkerGray: rgb(34, 34, 34)
+}
+
+body {
+    background-color: var(--darkgray);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: var(--white);
+}
+
+#navbar {
+    background-color: var(--darkerGray);
+    height: 5rem;
+}
+
+#navtext {
+    position: relative;
+    top: 1rem;
+    right: 4rem;
+}
+
+ul#navtext {
+    color: white;
+}
+
+.nav-item:hover {
+    color: var(--blue);
+}
+
+.projectBtn {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-top: 0.2rem;
+    display: inline-block;
+    background-color: var(--blue);
+    border-radius: 999px;
+    color: white;
+    font-size: 20px;
+    width: 3rem;
+}
+
+.projectBtn:hover {
+    background-color: rgb(74, 74, 255);
+}
+
+.portrait {
+    height: 15rem;
+    position: relative;
+    left: 11.5rem;
+    border: solid var(--darkerGray) 10px;
+}
+
+.land-caption {
+    width: 16rem;
+    text-align: center;
+    position: relative;
+    left: 14.3rem;
+}
+h1.land-caption {
+    position: relative;
+    left: 14rem;
+}
+p.land-caption {
+    position: relative;
+    text-align: center;
+    left: 15rem;
+    font-size: 14px;
+    width: 14rem;
+}
+
+.master {
+    position: relative;
+    top: 1rem;
+    left: -15rem;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.proj-section {
+    position: relative;
+    top: 10rem;
+}
+
+.quiz-img {
+    height: 10rem;
+    width: 15rem;
+    border: solid var(--blue) 7px;
+}
+
+.pass-img {
+    height: 10rem;
+    width: 15rem;
+    border: solid var(--blue) 7px;
+    position: relative;
+    top: -3rem;
+}
+
+span {
+    font-weight: bold;
+    line-height: 3px;
+}
+
+p {
+    color: var(--white);
+}
+
+.proj-label {
+    background-color: var(--blue);
+    position: relative;
+    top: -4rem;
+    width: 50%;
+}
+
+.proj-label2 {
+    background-color: var(--blue);
+    position: relative;
+    top: -7rem;
+    width: 50%;
+}
+
+.about-section {
+    position: relative;
+    top: 10rem;
+    left: 1rem;
+}
+
+.github-icon {
+    height: 2rem;
+    position: relative;
+    top: -14rem;
+    left: 9rem;
+    z-index: 2;
+}
+
+.github-icon2 {
+    height: 2rem;
+    position: relative;
+    top: -16rem;
+    left: 9rem;
+    z-index: 2;
+}
+
+.about-me {
+    width: 12rem;
+    text-align: center;
+}
+
+.about-br {
+    height: 1rem;
+}
+
+.contact-section {
+    position: relative;
+    top: 15rem;
+}
+
+.contact-links {
+    position: relative;
+    left: -4rem;
+}
+
+.contact-header {
+    position: relative;
+    left: 1.8rem;
+}
